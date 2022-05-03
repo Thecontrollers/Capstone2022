@@ -1,0 +1,25 @@
+.staff{
+    box-sizing: border-box;
+    background-color: rgb(243, 192, 18);
+    padding-top: 12px;
+    padding-left: 100px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.person {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.grade {
+    padding-left: 100px;
+    font-size: 30px;
+    color: slategrey;
+}
+
+.email {
+    padding-left: 100px;
+    font-size: 30px; 
+}
