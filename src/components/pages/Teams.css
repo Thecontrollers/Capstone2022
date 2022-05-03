@@ -1,12 +1,14 @@
 .teams {
     padding-bottom: 10px;
     font-size: 60px;
-    
+    background-color: #394050;
+    color: azure;
 }
 
 .TeamContainer {
-    background-color: #fff;
+    background-color: #394050;
     text-align: center;
+    color: azure;
 }
 
 .record {
@@ -28,6 +30,11 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    order: 1;
+    order: 2;
     font-size: 25px;
+}
+
+.role {
+    color: slategray;
+    font-size: 15px;
 }
