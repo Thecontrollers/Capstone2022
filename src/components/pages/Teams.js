@@ -3,11 +3,9 @@ import '../../App.css';
 import Footer from '../Footer';
 import './Teams.css';
 
-// Rocket League
 //         Hearthstone
 //         Super Smash Bros. Ulimate
 //         League of Legends
-//         Overwatch
 //         Rainbow Six Siege
 
 export default function Teams() {
@@ -18,21 +16,72 @@ export default function Teams() {
     <div className="team_1">
          Rocket League
         <div className = "team_1_wrapper">
-        Team 1
+        Rocket League A
         <div className = "record">
-            (0-0)
+            (8-2)
         </div>
         <ul className='player_name'>
             <li>
-                Player Name
+            Stephen Gardner (Captain)
             </li>
             <li>
-                Player Name
+                Trey Yarwood (Starter)
             </li>
             <li>
-                Player Name
+                Andrew Bushey (Starter)
+            </li>
+            <li>
+                Xander Wilson (Sub)
             </li>
         </ul>
+    </div>
+    <div className="team_2">
+         Rocket League
+        <div className = "team_2_wrapper">
+        Rocket League B
+        <div className = "record">
+            (6-4)
+        </div>
+        <ul className='player_name'>
+            <li>
+                Brandon McChain (Captain)
+            </li>
+            <li>
+                Joshua Corelli (Starter)
+            </li>
+            <li>
+                Louis Desarro (Starter)
+            </li>
+        </ul>
+    </div>
+    <div className="team_3">
+         Overwatch
+        <div className = "team_1_wrapper">
+        Overwatch A
+        <div className = "record">
+            (7-3)
+        </div>
+        <ul className='player_name'>
+            <li>
+                Marco Demelerio (DPS / Captain)
+            </li>
+            <li>
+                Donnell Anderson (DPS)
+            </li>
+            <li>
+                Joshua Sudduth (Support)
+            </li>
+            <li>
+                Tyler Lingen (Support)
+            </li>
+            <li>
+                Randall Wheeler (Tank)
+            </li>
+            <li>
+                Matthew Woodin (Tank)
+            </li>
+        </ul>
+    </div>
     </div>
     </div>
     </div>
