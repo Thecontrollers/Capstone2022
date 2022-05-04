@@ -4,61 +4,59 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  // const [click, setClick] = useState(false);
+  // const [button, setButton] = useState(true);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  // const handleClick = () => setClick(!click);
+  // const closeMobileMenu = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
-  window.addEventListener('resize', showButton);
+ // window.addEventListener('resize', showButton);
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' >
             <img src = "images/WCE_Assets/NewWildcatEsportsLogo_NO_TEXT.png" alt = "WCE topleft" width="60" height="49"/>
               Wildcat Esports
             <i class='fab fa-typo3' />
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <div className='menu-icon' ></div>
+          <ul className='nav-menu'>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' >
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/schedule' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/schedule' className='nav-links' >
                 Schedule
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Teams' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Teams' className='nav-links'>
                Teams
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/staff' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/staff' className='nav-links'>
                Staff
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Merchandise' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/Merchandise' className='nav-links'>
               Merchandise
               </Link>
             </li>
