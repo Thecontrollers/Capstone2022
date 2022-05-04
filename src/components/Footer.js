@@ -18,6 +18,9 @@ function Footer() {
       <li>
       <a href='https://www.instagram.com/sunypolywce/' target={"_blank"}>Instagram</a>
       </li>
+      <li>
+      <a href='https://www.twitch.tv/wildcat_esports' target={"_blank"}>Twitch</a>
+      </li>
       </ul>
     </div>
   );
