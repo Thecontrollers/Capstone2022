@@ -3,7 +3,6 @@
 }
 
 .productImage {
-  all: unset;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -11,12 +10,12 @@
 }
 
 .productName {
-  color: azure;
+  color: rgb(243, 192, 18);
   text-align: center;
 }
 
 .productPrice {
-  color: azure;
+  color: rgb(243, 192, 18);
   text-align: center;
 }
 
