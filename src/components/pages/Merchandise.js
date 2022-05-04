@@ -1,57 +1,43 @@
-import React from 'react';
-import '../../App.css'
-import CardItem from '../CardItem';
-import './Merchandise.css'
+import React from "react";
+import "../../App.css";
+import "./Merchandise.css";
+import product from "../product";
 
-export default function Merchandise() {
-    return (<>
- <div className='cards'>
-      <h1>Check out our Merch!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul>
-        </div>
+function Merchandise() {
+  return (
+    <div>
+      <h1 className="productName">Merchandise</h1>
+      <product />
+      <div>
+        <br />
+        <br />
+        <br />
+        <li className="liClass">
+          <img src="images/jersey.jpg" className="productImage" />
+          <h3 className="productName">Wildcat Esports Jersey</h3>
+          <br />
+          <h4 className="productPrice">$69.99 (out of stock)</h4>
+        </li>
+        <br />
+        <br />
+        <br />
+        <li className="liClass">
+          <img src="images/pins.jpg" className="productImage" />
+          <h3 className="productName">Pack of 3 Pins</h3>
+          <br />
+          <h4 className="productPrice">$9.99 (out of stock)</h4>
+        </li>
+        <br />
+        <br />
+        <br />
+        <li className="liClass">
+          <img src="images/stickers.jpg" className="productImage" />
+          <h3 className="productName">Pack of 2 Stickers</h3>
+          <br />
+          <h4 className="productPrice">$5.99 (out of stock)</h4>
+        </li>
       </div>
     </div>
-            </>
-        );
+  );
 }
+export default Merchandise;
