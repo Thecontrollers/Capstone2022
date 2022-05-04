@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../Footer";
 import "./Teams.css";
 
 //         Hearthstone
@@ -278,7 +277,6 @@ export default function Teams() {
     </div>
     </div>
     </div>
-    <Footer/> 
     </>
   );
 }

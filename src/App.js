@@ -7,7 +7,11 @@ import Schedule from './components/pages/Schedule';
 import Teams from './components/pages/Teams';
 import Staff from './components/pages/Staff';
 import Merchandise from './components/pages/Merchandise';
+import Footer from './components/Footer';
 
+//IMPORTANT 
+//NO NEED TO PUT NAVBAR OR FOOTER INTO EACH FILE FOR EACH PAGE
+//APP FUNCTION DOES IT FOR YOU
 
 function App() {
   return (
@@ -20,6 +24,7 @@ function App() {
           <Route path="Staff" element ={<Staff />} />
           <Route path="Merchandise" element={<Merchandise/>} />
         </Routes>
+        <Footer />
       </>
   );
 }
