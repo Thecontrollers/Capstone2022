@@ -1,0 +1,21 @@
+.liClass {
+  all: unset;
+}
+
+.productImage {
+  all: unset;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.productName {
+  color: azure;
+  text-align: center;
+}
+
+.productPrice {
+  color: azure;
+  text-align: center;
+}
