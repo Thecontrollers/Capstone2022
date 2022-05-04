@@ -1,0 +1,32 @@
+.container {
+    padding-top: 40px;
+    padding-left: 150px;
+}
+
+.items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+    order: 3;
+    gap: 40px;
+    padding: 30px
+}
+
+.schedule_name {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: flex-start;
+        order: 1;
+        color: azure;
+        font-size: 40px;
+        padding-top: 60px;
+}
+
+h1 {
+    color: azure;
+}
+
