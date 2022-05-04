@@ -1,30 +1,24 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
-import { Link } from "react-router-dom";
+
+//Just to stop confusing
+//target={"_blank"} is used to create a new tab, instend of overriding website
 
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Join the WCE newsletter to receive event notifications.
-        </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time.
-        </p>
-        <div className="input-areas">
-          <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
-          </form>
-        </div>
-      </section>
+      <p>Social links</p>
+      <ul className="items"> 
+      <li>
+      <a href='https://discord.gg/ZRExKBzA7v' target={"_blank"}>Discord</a>
+      </li>
+      <li>
+      <a href='https://twitter.com/SUNYPolyWCE' target={"_blank"}>Twitter</a>
+      </li>
+      <li>
+      <a href='https://www.instagram.com/sunypolywce/' target={"_blank"}>Instagram</a>
+      </li>
+      </ul>
     </div>
   );
 }

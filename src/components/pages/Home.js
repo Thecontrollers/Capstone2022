@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from '../HeroSection';
-import Footer from '../Footer';
+import "./Home.css"
 
 function Home() {
   return (
     <>
-      <HeroSection />
+      <div className='hero-container'>
+       <img src='images/WCE_Assets/WildcatEsportsBanner_1_1600x800.png' alt="WCE Banner" />  
+      <h1>FOLLOW US</h1>
+    </div>
       
-      <Footer />
     </>
   );
 }

@@ -1,46 +1,41 @@
 .footer-container {
   background-color: #242424;
-  padding: 4rem 0 2rem 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 40px;
+  color: azure;
 }
 
-.footer-subscription {
+.items{
   display: flex;
-  flex-direction: column;
+  flex-direction: horizontal;
   justify-content: center;
   align-items: center;
-  text-align: center;
-
-  margin-bottom: 24px;
-  padding: 24px;
-  color: #fff;
+  font-size: 30px;
 }
 
-.footer-subscription > p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+a {
+  color: azure;
+  text-decoration: none;
 }
 
-.footer-subscription-heading {
-  margin-bottom: 24px;
-  font-size: 24px;
+
+a:link {
+  color: azure;
 }
 
-.footer-subscription-text {
-  margin-bottom: 24px;
-  font-size: 20px;
+a:visited {
+  color: azure;
 }
 
-.footer-input {
-  padding: 8px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border: 1px solid #fff;
+a:hover {
+  color: azure;
+}
+
+a:active {
+  color: azure;
 }
